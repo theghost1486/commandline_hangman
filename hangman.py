@@ -1,11 +1,11 @@
 import random
-from wordlist import a
+from wordlist import words
 from os import system
 from time import sleep
 
 
 def getword():
- word = random.choice(a)
+ word = random.choice(words)
  word = word.upper()
  return word
 
